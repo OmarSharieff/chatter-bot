@@ -1,11 +1,12 @@
 (globalThis.TURBOPACK = globalThis.TURBOPACK || []).push([
-    "static/chunks/app_layout_f0e4c1a2.js",
+    "static/chunks/app_page_jsx_d58540da._.js",
     {},
 ]);
 (globalThis.TURBOPACK_CHUNK_LISTS = globalThis.TURBOPACK_CHUNK_LISTS || []).push({
-  "path": "static/chunks/app_layout_f0e4c1a2.js",
+  "path": "static/chunks/app_page_jsx_d58540da._.js",
   "chunks": [
-    "static/chunks/[root of the server]__c7e2cdbd._.css"
+    "static/chunks/node_modules_next_0766a282._.js",
+    "static/chunks/_a742589b._.js"
   ],
   "source": "dynamic"
 });
