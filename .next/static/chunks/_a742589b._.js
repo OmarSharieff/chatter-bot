@@ -571,7 +571,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 var { g: global, __dirname } = __turbopack_context__;
 {
-__turbopack_context__.v("/_next/static/media/qrcode.bef5f5f8.png");}}),
+__turbopack_context__.v("/_next/static/media/qrcode.0a608fc6.png");}}),
 "[project]/assets/qrcode.png.mjs { IMAGE => \"[project]/assets/qrcode.png (static in ecmascript)\" } [app-client] (structured image object, ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -584,9 +584,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$qrcode$2e$png__$28
 ;
 const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$qrcode$2e$png__$28$static__in__ecmascript$29$__["default"],
-    width: 320,
-    height: 320,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAA10lEQVR42iWPO6qDUBRF7yAdgJgHWiiC+EHQ+/yLn2AhWvipbHzdMyGQpMwgUgQygIxiJ/emO3DWXmcfIkkSTNNE3/eY5xmu66JtW9i2DVEUQdgyjmMkSYKyLMECaZoiyzIYhgFCKeWJoijQNA12ux8IggBd11HXNUgQBOi6DofjCdfbC4fLE/t9w62WZYGoqoowDJHnBf7+79jOj8+cw3GcLzCOI1ezM5T+cpiFNE2D7/sgrG0URRiGAcuycLXneVAU5QuwV1hbWZY5uK4rtm3DNE2oqgpvpMejs+9yKVkAAAAASUVORK5CYII=",
+    width: 3000,
+    height: 3000,
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAvUlEQVR42j1POaqFAAzMdcVCbARxQxTBFREsbCytPIyKayeIjYV4g/kk8F+VMJPMQu/7YhgGrOuK67pwnif2fReMOeJF13UEQQDP89A0DeI4Fow5GscRlmUhiiJUVQXXdRGGIdI0FSWa5xm+70NVVRiGIVPTNPR9j+d5QNu2oSgKdF2Htm1h2zYURUFZlmB1WpYFWZahrmvkeS5WjuPIzs+/kKZpim+SJHLEQY/jAP3XnKZJAK5737cE/L4Pf0PMvzsu08HNAAAAAElFTkSuQmCC",
     blurWidth: 8,
     blurHeight: 8
 };
@@ -887,11 +887,20 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/assets/assets.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$clerk$2f$shared$2f$dist$2f$react$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@clerk/shared/dist/react/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$clerk$2f$clerk$2d$react$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/@clerk/clerk-react/dist/index.mjs [app-client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$context$2f$AppContext$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/context/AppContext.jsx [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+;
 ;
 ;
 ;
 ;
 function Sidebar({ expand, setExpand }) {
+    _s();
+    const { openSignIn } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$clerk$2f$shared$2f$dist$2f$react$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useClerk"])();
+    const { user } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$context$2f$AppContext$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useAppContext"])();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: `flex flex-col justify-between bg-[#212327] pt-7 transition-all z-50 max-md:absolute max-md:h-screen ${expand ? "p-4 w-64" : "md:w-20 w-0 max-md:overflow-hidden"}`,
         children: [
@@ -907,7 +916,7 @@ function Sidebar({ expand, setExpand }) {
                                 width: 100
                             }, void 0, false, {
                                 fileName: "[project]/components/Sidebar.jsx",
-                                lineNumber: 18,
+                                lineNumber: 23,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -920,7 +929,7 @@ function Sidebar({ expand, setExpand }) {
                                         className: "md:hidden"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Sidebar.jsx",
-                                        lineNumber: 29,
+                                        lineNumber: 34,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -929,7 +938,7 @@ function Sidebar({ expand, setExpand }) {
                                         className: "hidden md:block w-7"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Sidebar.jsx",
-                                        lineNumber: 30,
+                                        lineNumber: 35,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -940,25 +949,25 @@ function Sidebar({ expand, setExpand }) {
                                                 className: `w-3 h-3 absolute bg-black rotate-45 ${expand ? "left-1/2 -top-1.5 -translate-x-1/2" : "left-4 -bottom-1.5"}`
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Sidebar.jsx",
-                                                lineNumber: 41,
+                                                lineNumber: 46,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Sidebar.jsx",
-                                        lineNumber: 35,
+                                        lineNumber: 40,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Sidebar.jsx",
-                                lineNumber: 25,
+                                lineNumber: 30,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Sidebar.jsx",
-                        lineNumber: 13,
+                        lineNumber: 18,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -970,7 +979,7 @@ function Sidebar({ expand, setExpand }) {
                                 alt: "chat icon"
                             }, void 0, false, {
                                 fileName: "[project]/components/Sidebar.jsx",
-                                lineNumber: 58,
+                                lineNumber: 63,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -981,13 +990,13 @@ function Sidebar({ expand, setExpand }) {
                                         className: "w-3 h-3 absolute bg-black rotate-45 left-4 -bottom-1.5"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Sidebar.jsx",
-                                        lineNumber: 65,
+                                        lineNumber: 70,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Sidebar.jsx",
-                                lineNumber: 63,
+                                lineNumber: 68,
                                 columnNumber: 11
                             }, this),
                             expand && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -995,13 +1004,13 @@ function Sidebar({ expand, setExpand }) {
                                 children: "New chat"
                             }, void 0, false, {
                                 fileName: "[project]/components/Sidebar.jsx",
-                                lineNumber: 67,
+                                lineNumber: 72,
                                 columnNumber: 22
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Sidebar.jsx",
-                        lineNumber: 51,
+                        lineNumber: 56,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1011,18 +1020,18 @@ function Sidebar({ expand, setExpand }) {
                             children: "Recents"
                         }, void 0, false, {
                             fileName: "[project]/components/Sidebar.jsx",
-                            lineNumber: 75,
+                            lineNumber: 80,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Sidebar.jsx",
-                        lineNumber: 70,
+                        lineNumber: 75,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Sidebar.jsx",
-                lineNumber: 12,
+                lineNumber: 17,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1036,7 +1045,7 @@ function Sidebar({ expand, setExpand }) {
                                 alt: ""
                             }, void 0, false, {
                                 fileName: "[project]/components/Sidebar.jsx",
-                                lineNumber: 82,
+                                lineNumber: 93,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1050,32 +1059,32 @@ function Sidebar({ expand, setExpand }) {
                                             className: "w-44"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Sidebar.jsx",
-                                            lineNumber: 89,
+                                            lineNumber: 104,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "Scan to get ChatterBot App"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Sidebar.jsx",
-                                            lineNumber: 90,
+                                            lineNumber: 105,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: `w-3 h-3 absolute bg-black rotate-45 ${expand ? "right-1/2" : "left-4"} -bottom-1.5`
                                         }, void 0, false, {
                                             fileName: "[project]/components/Sidebar.jsx",
-                                            lineNumber: 91,
+                                            lineNumber: 106,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Sidebar.jsx",
-                                    lineNumber: 88,
+                                    lineNumber: 103,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Sidebar.jsx",
-                                lineNumber: 87,
+                                lineNumber: 98,
                                 columnNumber: 11
                             }, this),
                             expand && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -1084,8 +1093,8 @@ function Sidebar({ expand, setExpand }) {
                                         children: "Get App"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Sidebar.jsx",
-                                        lineNumber: 100,
-                                        columnNumber: 13
+                                        lineNumber: 115,
+                                        columnNumber: 15
                                     }, this),
                                     " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1093,55 +1102,66 @@ function Sidebar({ expand, setExpand }) {
                                         src: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["assets"].new_icon
                                     }, void 0, false, {
                                         fileName: "[project]/components/Sidebar.jsx",
-                                        lineNumber: 100,
-                                        columnNumber: 34
+                                        lineNumber: 115,
+                                        columnNumber: 36
                                     }, this)
                                 ]
                             }, void 0, true)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Sidebar.jsx",
-                        lineNumber: 81,
+                        lineNumber: 86,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: `flex items-center ${expand ? 'hover:bg-white/10 rounded-lg' : 'justify-center w-full'} gap-3 text-white/60 text-sm p-2 mt-2 cursor-pointer`,
+                        onClick: user ? null : openSignIn,
+                        className: `flex items-center ${expand ? "hover:bg-white/10 rounded-lg" : "justify-center w-full"} gap-3 text-white/60 text-sm p-2 mt-2 cursor-pointer`,
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            user ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$clerk$2f$clerk$2d$react$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["UserButton"], {}, void 0, false, {
+                                fileName: "[project]/components/Sidebar.jsx",
+                                lineNumber: 127,
+                                columnNumber: 13
+                            }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 src: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["assets"].profile_icon,
                                 alt: "profile icon",
                                 className: "w-7"
                             }, void 0, false, {
                                 fileName: "[project]/components/Sidebar.jsx",
-                                lineNumber: 106,
-                                columnNumber: 11
+                                lineNumber: 129,
+                                columnNumber: 13
                             }, this),
                             expand && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: "My Profile"
                             }, void 0, false, {
                                 fileName: "[project]/components/Sidebar.jsx",
-                                lineNumber: 107,
+                                lineNumber: 135,
                                 columnNumber: 22
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Sidebar.jsx",
-                        lineNumber: 105,
+                        lineNumber: 120,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Sidebar.jsx",
-                lineNumber: 80,
+                lineNumber: 85,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Sidebar.jsx",
-        lineNumber: 7,
+        lineNumber: 12,
         columnNumber: 5
     }, this);
 }
+_s(Sidebar, "hLSLw4/3Wrzlo+FheylILWgFw7E=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$clerk$2f$shared$2f$dist$2f$react$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useClerk"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$context$2f$AppContext$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useAppContext"]
+    ];
+});
 _c = Sidebar;
 const __TURBOPACK__default__export__ = Sidebar;
 var _c;

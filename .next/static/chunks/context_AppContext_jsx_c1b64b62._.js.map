@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/omarsharieff/Coding/chatter-bot/context/AppContext.jsx"],"sourcesContent":["\"use client\";\nimport { useUser } from \"@clerk/nextjs\";\nimport { createContext, useContext } from \"react\";\n\nexport const AppContext = createContext();\n\nexport const useAppContext = ()=> {\n  return useContext(AppContext)\n}\n\nexport const AppContextProvider = ({children})=> {\n  const {user} = useUser();\n\n  const value = {user}\n\n  return <AppContext.Provider value={value}>{children}</AppContext.Provider>\n}"],"names":[],"mappings":";;;;;;AACA;AACA;;;AAFA;;;AAIO,MAAM,2BAAa,CAAA,GAAA,6JAAA,CAAA,gBAAa,AAAD;AAE/B,MAAM,gBAAgB;;IAC3B,OAAO,CAAA,GAAA,6JAAA,CAAA,aAAU,AAAD,EAAE;AACpB;GAFa;AAIN,MAAM,qBAAqB,CAAC,EAAC,QAAQ,EAAC;;IAC3C,MAAM,EAAC,IAAI,EAAC,GAAG,CAAA,GAAA,+JAAA,CAAA,UAAO,AAAD;IAErB,MAAM,QAAQ;QAAC;IAAI;IAEnB,qBAAO,6LAAC,WAAW,QAAQ;QAAC,OAAO;kBAAQ;;;;;;AAC7C;IANa;;QACI,+JAAA,CAAA,UAAO;;;KADX","debugId":null}}]
+}
