@@ -1,5 +1,6 @@
 "use client";
 import { assets } from "@/assets/assets.js";
+import Message from "@/components/Message";
 import PromptBox from "@/components/PromptBox";
 import Sidebar from "@/components/Sidebar";
 import Image from "next/image";
@@ -28,7 +29,7 @@ export default function Home() {
               alt="chat icon"
             />
           </div>
-          {messages.length === 0 ? (
+          {messages.length !== 0 ? (
             <>
               <div className="flex items-center gap-3">
                 <Image
@@ -41,7 +42,9 @@ export default function Home() {
               <p className="text-md mt-2">How can I help you today?</p>
             </>
           ) : (
-            <div></div>
+            <div>
+              <Message role='ai' content='What is nect js'/>
+            </div>
           )}
           <PromptBox isLoading={isLoading} setIsLoading={setIsLoading}/>
           <p className="text-xs absolute bottom-1 text-gray-500">

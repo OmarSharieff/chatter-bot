@@ -1,12 +1,14 @@
 import { assets } from "@/assets/assets";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import { useClerk, UserButton } from "@clerk/nextjs";
 import { useAppContext } from "@/context/AppContext";
+import ChatLabel from "./ChatLabel";
 
 function Sidebar({ expand, setExpand }) {
   const { openSignIn } = useClerk();
   const { user } = useAppContext();
+  const [openMenu, setOpenMenu] = useState({id: 0, open: false})
 
   return (
     <div
@@ -78,7 +80,7 @@ function Sidebar({ expand, setExpand }) {
           }`}
         >
           <p className="my-1">Recents</p>
-          {/* chatlabel */}
+          <ChatLabel openMenu={openMenu} setOpenMenu={setOpenMenu}/>
         </div>
       </div>
 
